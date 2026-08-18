@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# main.py - ARLEN -OTP OTP Spammer
+# main.py - Novxzzz -OTP OTP Spammer
 
 import sys
 import time
@@ -156,7 +156,7 @@ ascii_novxzzz = [
         matrix.update()
 
         colored_ascii = []
-        for line in ascii_arlen:
+        for line in ascii_novxzzz:
             colored_line = ""
             for i, char in enumerate(line):
                 if char != ' ':
