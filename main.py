@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# main.py - Novxzzz -OTP OTP Spammer
+# main.py - Novxzzz -War
 
 import sys
 import time
@@ -19,7 +19,7 @@ from main_engine import run_single_round, run_infinite_loop
 init(autoreset=True)
 
 VERSION = "1.0.0"
-TOOLS_NAME = "ARLEN -OTP"
+TOOLS_NAME = "NovxzzzWar"
 
 exec_data = {
     'target': '',
@@ -202,7 +202,7 @@ def print_banner(tick=0):
     color = rgb_color(tick)
     reset = Style.RESET_ALL
 
-    title = gradient_text("ARLEN -OTP", tick, 0)
+    title = gradient_text("NovxzzzWAR", tick, 0)
 
     banner = f"""
   ┌──────────────────────────────────────────────────────┐
@@ -210,7 +210,7 @@ def print_banner(tick=0):
   └──────────────────────────────────────────────────────┘
 
   ┌──────────────────────────────────────────────────────┐
-  │  {color}API{reset}  : 24  │  {color}Version{reset}  : 1.0.0  │  {color}Dev{reset}  : Aldan     │
+  │  {color}API{reset}  : 24  │  {color}Version{reset}  : 1.0.0  │  {color}Dev{reset}  :Novxzz     │
   └──────────────────────────────────────────────────────┘{reset}
 """
     print(banner)
