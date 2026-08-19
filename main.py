@@ -479,14 +479,10 @@ def menu_navigation():
                         input()
 
                     elif choice == "exit":
-                        print(f"\n{Fore.CYAN}◐ {Fore.WHITE}Keluar...{Style.RESET_ALL}")
-                        time.sleep(0.5)
-                        print(f"{Fore.GREEN}✓ Sampai jumpa! 👋{Style.RESET_ALL}")
-                        sys.exit(0)
-                        print(f"\n{Fore.CYAN}◐ {Fore.WHITE}Keluar...{Style.RESET_ALL}")
-                        time.sleep(0.5)
-                        print(f"{Fore.GREEN}✓ Sampai jumpa! 👋{Style.RESET_ALL}")
-                        sys.exit(0)
+                            print(f"\n{Fore.CYAN}◐ {Fore.WHITE}Keluar...{Style.RESET_ALL}")
+    time.sleep(0.5)
+    print(f"{Fore.GREEN}✓ Sampai jumpa! 👋{Style.RESET_ALL}")
+    sys.exit(0)
 
                 elif key in ['q', 'Q']:
                     print(f"\n{Fore.CYAN}◐ {Fore.WHITE}Keluar...{Style.RESET_ALL}")
@@ -559,7 +555,7 @@ def main():
     try:
         is_termux = os.path.exists("/data/data/com.termux/files/usr")
 
-        matrix_loading(3)
+        loading_screen(3)
         clear_screen()
 
         if is_termux:
