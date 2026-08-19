@@ -148,6 +148,7 @@ ascii_novxzzz = [
     "╚═╝  ╚═══╝ ╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚══════╝╚══════╝"
 ]
 def loading_screen(duration):
+    matrix = MatrixBackground()
     start_time = time.time()
     tick = 0
 
