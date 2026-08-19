@@ -478,13 +478,7 @@ def menu_navigation():
                         print(f"\n{Fore.YELLOW}⏎ Tekan Enter untuk kembali...{Style.RESET_ALL}")
                         input()
 
-                    elif choice == "exit":
-                            print(f"\n{Fore.CYAN}◐ {Fore.WHITE}Keluar...{Style.RESET_ALL}")
-        elif choice == "exit":
-        print(f"\n{Fore.CYAN}◐ {Fore.WHITE}Keluar...{Style.RESET_ALL}")
-        time.sleep(0.5)
-        print(f"{Fore.GREEN}✓ Sampai jumpa! 👋{Style.RESET_ALL}")
-        sys.exit(0)
+                    
 
                 elif key in ['q', 'Q']:
                     print(f"\n{Fore.CYAN}◐ {Fore.WHITE}Keluar...{Style.RESET_ALL}")
