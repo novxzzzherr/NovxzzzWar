@@ -24,7 +24,7 @@ from handlers import (
     send_hrsbre_otp, send_erafone_otp, send_beautyhaul_otp,
     send_hainaya_otp, send_minumyukkaka_otp, send_sidemang_otp,
     send_lapormasbup_otp, send_ptsp_kemenag_otp, send_planetban_otp,
-    send_klook_otp, send_dana_otp, send_gopay_otp
+    send_klook_otp,
 )
 from targets import TARGETS
 
